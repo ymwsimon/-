@@ -1,0 +1,66 @@
+name: Convert SSA subtitles to Traditional Chinese
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install OpenCC
+        run: pip install opencc-python-reimplemented
+
+      - name: Convert subtitles
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from opencc import OpenCC
+          import re
+
+          cc = OpenCC('s2t')
+          root = Path('.')
+
+          # Convert Simplified Chinese while leaving Japanese karaoke lines intact.
+          def convert_line(line):
+              if not line.strip():
+                  return line
+              # SSA dialogue lines: convert only the subtitle text after the final comma.
+              if line.startswith('Dialogue:'):
+                  prefix, sep, text = line.partition(',,')
+                  if not sep:
+                      return line
+                  # Keep lines containing Japanese kana unchanged.
+                  if re.search(r'[ぁ-ゖァ-ヺ]', text):
+                      return line
+                  return prefix + sep + cc.convert(text)
+              # Convert common Chinese metadata/comments too.
+              return cc.convert(line)
+
+          for src in sorted(root.glob('*.ssa')):
+              if src.name.endswith('.zh-Hant.ssa'):
+                  continue
+              dst = src.with_name(src.stem + '.zh-Hant.ssa')
+              original = src.read_text(encoding='utf-8-sig')
+              converted = ''.join(convert_line(line) for line in original.splitlines(True))
+              dst.write_text(converted, encoding='utf-8-sig')
+              print(f'Converted: {src.name} -> {dst.name}')
+          PY
+
+      - name: Commit translated subtitles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*.zh-Hant.ssa'
+          if git diff --cached --quiet; then
+            echo "No translated files to commit."
+            exit 0
+          fi
+          git commit -m "Add Traditional Chinese subtitles"
+          git push
