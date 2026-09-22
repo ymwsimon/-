@@ -1,0 +1,72 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2006-04-02 11:41:10
+; // 版本: 0.74
+; // popgo_fansub@yahoo.co.jp
+; // 歡迎訪問漫遊天下 http://bbs.popgo.net
+Title:漫遊字幕
+Original Script:漫遊字幕組
+Synch Point:0
+ScriptType:v4.00
+Collisions:Normal
+PlayResX:864
+PlayResY:480
+Timer:100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,黑體,25,&HFFFFFF,&H000000,&H000000,&H000000,1,0,1,1,0,2,30,30,10,0,134
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: Marked=0,0:00:00.05,0:00:05.95,*Default,NTP,0000,0000,0000,,{\fs22\fad(350,350)}這個預告版是在地獄少女第一話完成前\N於05年秋季舉行的製作發佈會上公開的。\N因此臺詞和畫面與原動畫存在若干不同。
+Dialogue: Marked=0,0:00:15.50,0:00:19.00,*Default,NTP,0000,0000,0000,,人世謂緣
+Dialogue: Marked=0,0:00:19.80,0:00:22.00,*Default,NTP,0000,0000,0000,,繫結的絲線糾結纏繞
+Dialogue: Marked=0,0:00:22.80,0:00:25.20,*Default,NTP,0000,0000,0000,,脆弱可悲的彼岸花
+Dialogue: Marked=0,0:00:26.60,0:00:31.60,*Default,NTP,0000,0000,0000,,在憤怒 悲傷 淚水中度日
+Dialogue: Marked=0,0:00:33.30,0:00:35.60,*Default,NTP,0000,0000,0000,,午夜零點的帷幕彼方
+Dialogue: Marked=0,0:00:36.90,0:00:40.40,*Default,NTP,0000,0000,0000,,難消之恨 願爲消之
+Dialogue: Marked=0,0:01:00.00,0:01:03.90,*Default,NTP,0000,0000,0000,,午夜零點登錄網站“地獄通信”
+Dialogue: Marked=0,0:01:04.30,0:01:06.40,*Default,NTP,0000,0000,0000,,在這裏寫下無法消除的怨恨
+Dialogue: Marked=0,0:01:06.70,0:01:08.50,*Default,NTP,0000,0000,0000,,地獄少女就會出現
+Dialogue: Marked=0,0:01:08.70,0:01:11.60,*Default,NTP,0000,0000,0000,,把憎恨的對象送入地獄
+Dialogue: Marked=0,0:01:12.30,0:01:16.10,*Default,NTP,0000,0000,0000,,在孩子們間廣泛流傳的都市傳說般的傳言
+Dialogue: Marked=0,0:01:16.30,0:01:18.90,*Default,NTP,0000,0000,0000,,其實卻是千真萬確的事實
+Dialogue: Marked=0,0:01:32.70,0:01:36.00,*Default,NTP,0000,0000,0000,,她的名字叫閻魔愛
+Dialogue: Marked=0,0:01:36.80,0:01:41.60,*Default,NTP,0000,0000,0000,,平時不爲注目的少女 當怨恨的情感發生共鳴時
+Dialogue: Marked=0,0:01:42.00,0:01:46.10,*Default,NTP,0000,0000,0000,,她就會化身爲地獄少女
+Dialogue: Marked=0,0:01:47.60,0:01:51.50,*Default,NTP,0000,0000,0000,,然而傳說中不曾提到的是
+Dialogue: Marked=0,0:01:51.80,0:01:54.60,*Default,NTP,0000,0000,0000,,與少女間存在的契約
+Dialogue: Marked=0,0:01:59.70,0:02:03.60,*Default,NTP,0000,0000,0000,,害人終害己
+Dialogue: Marked=0,0:02:06.40,0:02:07.90,*Default,NTP,0000,0000,0000,,你死以後
+Dialogue: Marked=0,0:02:08.50,0:02:11.30,*Default,NTP,0000,0000,0000,,靈魂亦將墜入地獄
+Dialogue: Marked=0,0:02:13.60,0:02:15.90,*Default,NTP,0000,0000,0000,,無法前往極樂淨土
+Dialogue: Marked=0,0:02:17.60,0:02:19.50,*Default,NTP,0000,0000,0000,,你的靈魂
+Dialogue: Marked=0,0:02:20.90,0:02:23.50,*Default,NTP,0000,0000,0000,,將飽嘗痛楚與苦難
+Dialogue: Marked=0,0:02:24.00,0:02:26.40,*Default,NTP,0000,0000,0000,,永遠徘徊
+Dialogue: Marked=0,0:02:30.00,0:02:33.40,*Default,NTP,0000,0000,0000,,之後的事 就由你自己抉擇
+Dialogue: Marked=0,0:02:39.80,0:02:42.70,*Default,NTP,0000,0000,0000,,迷失於黑暗中的可悲之影
+Dialogue: Marked=0,0:02:43.70,0:02:46.40,*Default,NTP,0000,0000,0000,,傷害鄙視他人
+Dialogue: Marked=0,0:02:47.70,0:02:50.40,*Default,NTP,0000,0000,0000,,沉溺於罪惡的孽魂
+Dialogue: Marked=0,0:02:52.90,0:02:56.50,*Default,NTP,0000,0000,0000,,來死一次吧
+Dialogue: Marked=0,0:02:58.80,0:02:59.90,*Default,NTP,0000,0000,0000,,此怨此恨
+Dialogue: Marked=0,0:03:00.90,0:03:02.70,*Default,NTP,0000,0000,0000,,將流向地獄
+Dialogue: Marked=0,0:03:05.84,0:03:16.50,*Default,NTP,0000,0000,0000,,{\pos(324,25)\fs20}故事的主人公。穩重不起眼的少女，化身爲地獄少女，
+Dialogue: Marked=0,0:03:05.84,0:03:16.50,*Default,NTP,0000,0000,0000,,{\pos(354,45)\fs20}把對方送入地獄。平常穿着水手服，化身地獄少女時穿和服。
+Dialogue: Marked=0,0:03:16.50,0:03:27.15,*Default,NTP,0000,0000,0000,,{\pos(300,25)\fs20}頭上隱藏的眼睛不管何處發生的事情都能看到。
+Dialogue: Marked=0,0:03:16.50,0:03:27.15,*Default,NTP,0000,0000,0000,,{\pos(320,45)\fs20}聽從愛的命令收集情報。另外的姿態是藍色稻草人。
+Dialogue: Marked=0,0:03:27.13,0:03:37.79,*Default,NTP,0000,0000,0000,,{\pos(336,25)\fs20}美女的外形下，實際卻是骸骨。擅長用美色誘惑男性。聽
+Dialogue: Marked=0,0:03:27.13,0:03:37.79,*Default,NTP,0000,0000,0000,,{\pos(346,45)\fs20}從愛的命令變裝潛入各種場所。另外的姿態是紅色稻草人。
+Dialogue: Marked=0,0:03:37.80,0:03:47.84,*Default,NTP,0000,0000,0000,,{\pos(322,25)\fs20}平時爲老伯的樣子，實體卻是車輪形的妖怪，是愛乘坐
+Dialogue: Marked=0,0:03:37.80,0:03:47.84,*Default,NTP,0000,0000,0000,,{\pos(332,45)\fs20}的可以飛上天空的交通工具。另外的姿態是黑色稻草人。
+Dialogue: Marked=0,0:03:48.40,0:03:50.80,*Default,NTP,0000,0000,0000,,{\an8\c&H0000FF&}害人終害己
+Dialogue: Marked=0,0:03:51.30,0:03:53.00,*Default,NTP,0000,0000,0000,,{\an8\c&H0000FF&}那是與少女的契約
+Dialogue: Marked=0,0:03:53.40,0:03:58.40,*Default,NTP,0000,0000,0000,,君之怨恨 願爲消之
+Dialogue: Marked=0,0:04:10.00,0:04:12.00,*Default,NTP,0000,0000,0000,,我是閻魔愛
+Dialogue: Marked=0,0:04:12.80,0:04:15.20,*Default,NTP,0000,0000,0000,,地獄少女
+Dialogue: Marked=0,0:04:15.40,0:04:17.36,*Default,NTP,0000,0000,0000,,來死一次吧
+Dialogue: Marked=0,0:04:17.50,0:04:22.95,*Default,NTP,0000,0000,0000,,{\an8\c&H0000FF&}傳說中的少女真的存在
+Dialogue: Marked=0,0:04:18.70,0:04:21.40,*Default,NTP,0000,0000,0000,,怨 恨 已 聞
+Dialogue: Marked=0,0:04:22.95,0:04:26.99,*Default,NTP,0000,0000,0000,,{\an8\c&H0000FF&}10月起在電視上播出
+Dialogue: Marked=0,0:04:22.95,0:04:26.99,*Default,NTP,0000,0000,0000,,{\c&H0000FF&}漫畫連載開始
