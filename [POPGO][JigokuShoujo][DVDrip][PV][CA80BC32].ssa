@@ -1,0 +1,39 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2006-06-09 11:21:19
+; // 版本: 0.74
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00
+Collisions:Normal
+PlayResX:864
+PlayResY:480
+Timer:100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,华文细黑,25,&HFFFFFF,&H0000FF,&H000000,&H000000,-1,0,1,1,0,2,30,30,10,0,134
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:21.00,0:00:27.50,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}思{\K20}い{\K30}出{\K120}を {\K50}{\K30}摘{\K30}ん{\K60}で{\K30}きま{\K40}し{\K120}ょ
+Dialogue: Marked=0,0:00:27.70,0:00:34.20,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K80}花{\K100}を{\K40}摘{\K45}ん{\K40}で{\K40}き{\K70}ま{\K40}し{\K120}ょ
+Dialogue: Marked=0,0:00:34.60,0:00:47.00,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}胸{\K140}の{\K40}闇{\K120}に{\K40}一{\K120}輪{\K80}差{\K200}し{\K140}飾{\K80}る{\K200}の
+Dialogue: Marked=0,0:00:48.00,0:00:54.50,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K20}い{\K30}つ{\K30}だっ{\K200}て {\K30}行{\K30}き{\K30}止{\K30}まり{\K200}で
+Dialogue: Marked=0,0:00:54.80,0:01:01.40,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K60}決{\K20}し{\K100}て {\K40}逃{\K45}げ{\K40}ら{\K40}れ{\K70}な{\K200}い
+Dialogue: Marked=0,0:01:01.70,0:01:14.80,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K40}空{\K140}の{\K40}鳥{\K120}へ {\K40}哀{\K40}し{\K80}み{\K80}の{\K200}せ {\K100}飛{\K40}ば{\K80}す{\K200}の
+Dialogue: Marked=0,0:01:18.60,0:01:22.20,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}ここ{\K140}は{\K20}仮{\K70}縫{\K70}い
+Dialogue: Marked=0,0:01:22.50,0:01:32.60,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K210}私{\K180}を{\K60}{\K100}縛{\K60}る{\K30}{\K140}永{\K200}遠
+Dialogue: Marked=0,0:01:33.40,0:01:52.00,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K80}行{\K20}き{\K100}も{\K30}{\K120}帰{\K80}り{\K200}も {\K80}{\K40}過{\K30}ぎ{\K40}て{\K40}{\K240}ゆ{\K220}く{\K220}は{\K100}夢
+Dialogue: Marked=0,0:02:02.70,0:02:08.80,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K20}日{\K30}が{\K30}暮れ{\K180}て{\K60}影{\K30}を{\K30}隠{\K200}す
+Dialogue: Marked=0,0:02:09.40,0:02:15.00,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}一{\K100}人{\K40}泣{\K45}き{\K40}た{\K40}く{\K70}な{\K160}る
+Dialogue: Marked=0,0:02:16.00,0:02:28.60,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K40}黒{\K140}く{\K40}滲{\K120}む{\K80}瞳{\K80}の{\K200}中 {\K80}{\K160}怖{\K80}く{\K200}て
+Dialogue: Marked=0,0:02:33.00,0:02:36.60,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}ここ{\K140}は{\K20}仮{\K70}縫{\K70}い
+Dialogue: Marked=0,0:02:37.00,0:02:46.70,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K60}世{\K150}界{\K180}を{\K50}{\K50}編{\K50}ん{\K60}だ{\K30}{\K140}永{\K200}遠
+Dialogue: Marked=0,0:02:47.50,0:03:06.00,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K80}行{\K20}き{\K100}も{\K30}{\K120}帰{\K80}り{\K200}も {\K80}{\K40}つ{\K30}い{\K40}て{\K40}{\K240}く{\K220}る{\K220}は{\K100}風
+Dialogue: Marked=0,0:03:28.30,0:03:46.50,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K160}少{\K100}し{\K100}だ{\K200}け{\K100}{\K40}寄{\K40}り{\K100}道{\K80}し{\K200}て{\K180}{\K80}泣{\K200}い{\K20}{\K200}た
+Dialogue: Marked=0,0:03:48.10,0:03:51.70,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K50}ここ{\K120}は{\K20}仮{\K60}縫{\K70}い
+Dialogue: Marked=0,0:03:52.00,0:04:01.50,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K210}私{\K180}を{\K60}{\K100}縛{\K60}る{\K30}{\K140}永{\K200}遠
+Dialogue: Marked=0,0:04:02.50,0:04:20.00,*Default,NTP,0000,0000,0000,,{\fad(200,200)\K80}行{\K20}き{\K100}も{\K30}{\K120}帰{\K80}り{\K200}も {\K80}{\K40}過{\K30}ぎ{\K40}て{\K40}{\K240}ゆ{\K220}く{\K220}は{\K100}夢
